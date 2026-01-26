@@ -1,23 +1,32 @@
 # Laboration 1 – Automatisering & Publicering
 
-
 ## Projektbeskrivning
 Webbplatsen består av tre undersidor:
 
-1. **Startsida** – innehåller huvudmeny, rubrik, introduktion och lista över webbplatsens syfte.
-2. **Bildersida** – visar fem bilder i ett responsivt galleri.
-3. **Arbetsprocess** – beskriver steg-för-steg hur webbplatsen byggts och vilka verktyg som används.
+1. **Startsida** – innehåller huvudmeny, rubrik, introduktion och lista över webbplatsens syfte.  
+2. **Bildersida** – visar fem bilder i ett responsivt galleri.  
+3. **Arbetsprocess** – beskriver steg-för-steg hur webbplatsen byggts och vilka verktyg som används.  
 
 Webbplatsen använder HTML, CSS och JavaScript och är responsiv.
 
 ## Automatisering
-Projektet använder NodeJS och Vite för att automatisera vissa saker:
+Projektet använder **NodeJS** och **Vite** för att automatisera följande saker:
 
-- Minifiering av CSS-filer
-- Minifiering av JavaScript-filer
-- Optimering av bilder till moderna format (WebP/AVIF)
-- Kopiering av arbetsfiler från `src/` till publiceringsmappen `docs/`
+- Minifiering av CSS-filer  
+- Minifiering av JavaScript-filer  
+- Optimering av bilder till moderna format (WebP/AVIF)  
+- Kopiering av arbetsfiler från src/ till publiceringsmappen docs/
 
-  ## Publicerad webbplats
+För att bygga webbplatsen från arbetsfiler:
+
+1. Körde jag npm install för att installera alla beroenden  
+2. Körde jag npm run build för att skapa produktion i docs/
+
+## Filstruktur
+- src/ – arbetsfiler (HTML, CSS, JS, bilder)  
+- docs/ – publiceringsfiler som GitHub Pages använder  
+- Innehåller alla HTML-sidor, minifierad CSS och JS (assets/) samt optimerade bilder (bilder-optimized/)  
+
+## Publicerad webbplats
 Webbplatsen publiceras automatiskt via **GitHub Pages**.  
-[Länk till den publicerade webbplatsen](https://aliatwood.github.io/Automatisering-publicering/bilder.html)  
+[Se den publicerade webbplatsen](https://aliatwood.github.io/Automatisering-publicering)
