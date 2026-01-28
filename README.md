@@ -7,6 +7,11 @@ Webbplatsen består av tre undersidor:
 2. **Bildersida** – visar fem bilder i ett responsivt galleri.  
 3. **Arbetsprocess** – beskriver steg-för-steg hur webbplatsen byggts och vilka verktyg som används.  
 
+
+## Branch-arbetssätt
+Utveckling sker i `development`-branchen.  
+När webbplatsen är färdig mergas ändringarna till `main`, som används för publicering via GitHub Pages.
+
 Webbplatsen använder HTML, CSS och JavaScript och är responsiv.
 
 ## Automatisering
